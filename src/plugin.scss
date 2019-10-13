@@ -4,7 +4,7 @@
 
   // This class is added to the video.js element by the plugin by default.
   &.vjs-vjsdownload {
-    .vjs-button.vjs-vjsdownload {
+    .vjs-button.vjs-vjsdownload .vjs-icon-placeholder {
       cursor: pointer;
       display: block;
       font-family: VideoJs;
@@ -23,7 +23,7 @@
         height: 5px;
         background-color: white;
         position: relative;
-        top: -11px;
+        top: -16px;
         left: calc(50% - 2px);
       }
     }
